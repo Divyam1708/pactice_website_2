@@ -1,0 +1,160 @@
+.circle
+{
+    width: 600px;
+    height: 600px;
+    background-color: orange;
+    border-radius: 50%;
+    position: relative;
+    left: 800px;
+    top: 800px;
+}
+.design
+{
+    width: 1000px;
+    height: 15px;
+    /* border: red 2px solid; */
+    z-index: 10;
+}
+
+
+#sec1
+{
+    position: relative;
+    left: 800px;
+    top: 490px;
+    rotate: 0deg;
+    /* display: flex;
+    justify-content: center; */
+}
+#sec2
+{
+    position: relative;
+    left: 800px;
+    top: 475px;
+    rotate: 15deg;
+}
+#sec3
+{
+    position: relative;
+    left: 795px;
+    top: 455px;
+    rotate: 30deg;
+}
+#sec4
+{
+    position: relative;
+    left: 798px;
+    top: 435px;
+    rotate: 45deg;
+}
+#sec5
+{
+    position: relative;
+    left: 795px;
+    top: 410px;
+    rotate: 60deg;
+}
+#sec6
+{
+    position: relative;
+    left: 800px;
+    top: 395px;
+    rotate: 75deg;
+}
+#sec7
+{
+    position: relative;
+    left: 800px;
+    top: 375px;
+    rotate: 90deg;
+}
+#sec8
+{
+    position: relative;
+    left: 800px;
+    top: 360px;
+    rotate: 105deg;
+}
+#sec9
+{
+    position: relative;
+    left: 800px;
+    top: 345px;
+    rotate: 120deg;
+}
+#sec10
+{
+    position: relative;
+    left: 800px;
+    top: 325px;
+    rotate: 135deg;
+}
+#sec11
+{
+    position: relative;
+    left: 805px;
+    top: 300px;
+    rotate: 150deg;
+}
+#sec12
+{
+    position: relative;
+    left: 800px;
+    top: 285px;
+    rotate: 165deg;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes move1{
+    from
+    {
+        translate: 0px;
+    }
+
+    to
+    {
+        translate: 550px;
+    }
+}
+
+
+
+
+
+
+@keyframes changewidth {
+    from {
+      /* transform: scaleX(1); */
+      translate: 0px;
+    }
+  
+    to {
+      /* transform: scaleX(2); */
+      translate: 990px;
+    }
+  }
+  
+  .seccircle {
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: violet;
+    animation-duration: 5s;
+    animation-name:changewidth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
