@@ -12,9 +12,9 @@ body{
     background-color: black;
 }
 
-/* body::-webkit-scrollbar{
+body::-webkit-scrollbar{
     display: none;
-} */
+}
 
 a{
     text-decoration: none;
@@ -26,6 +26,7 @@ a{
     padding: 1.25em;
     box-sizing: border-box;
     margin: auto;
+    /* background-color: rgb(240, 240, 238); */
 }
 
 /* Floatings-1 starts*/
@@ -138,12 +139,12 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 40em;
+    /* height: 40em; */
 }
 #circle1
 {
-    width: 27em;
-    height: 27em;
+    width: 25em;
+    height: 25em;
     border-radius: 50%;
     background-color: rgb(15, 15, 15);
     transition-timing-function: ease-out 2s;
@@ -175,8 +176,8 @@ a{
 #circle3
 {
     
-    width: 27em;
-    height: 27em;
+    width: 25em;
+    height: 25em;
     border-radius: 50%;
     background-color: rgb(15, 15, 15);
 }
@@ -190,27 +191,32 @@ a{
 #center_circle_content_section{
     position: relative;
     left: 0em;
-    top: -32em;
-    width: 800px;
+    top: 10em;
+    /* width: 800px; */
+    /* background-color: yellowgreen; */
     font-family: "Poppins", "Poppins Placeholder", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+
 }
 #center_circle_content{
     height: 250px;
     
 }
 #center_circle_para_1 {
-    position: relative;
-    left: 12.5em;
+    /* position: relative;
+    left: 0em; */
 }
 #center_circle_para_1 p{
     color: white;
-    width: 350px;
+    /* width: 350px; */
     text-align: center;
     
 }
 #center_circle_para_2 {
-    position: relative;
-    top: 2em;
+    /* position: relative;
+    top: 2em; */
     
 }
 #center_circle_para_2 p{
@@ -220,7 +226,7 @@ a{
     /* width: 350px; */
 }
 #center_circle_para_2 p:nth-child(2){
-    word-spacing: 20px;
+    /* word-spacing: 20px; */
     /* width: 350px; */
 }
 
@@ -231,12 +237,15 @@ a{
 }
 
 #center_circle_input_1{
+    /* background-color: rgb(2, 129, 255); */
     position: relative;
-    top: 4em;
-    left: 15em;
+    top: 1em;
+    /* left: 15em; */
+    display: flex;
+    justify-content: center;
 }
 
-#center_circle_input_1 form input{
+#center_circle_input_1 form input[type='email']{
     width: 300px;
     height: 45px;
     border-radius: 25px;
@@ -259,7 +268,7 @@ a{
 
 
 
-#center_circle_input_1 div{
+#center_circle_input_nutton{
     position: relative;
     top: -2.81em;
     left: 14.2em;
@@ -490,7 +499,7 @@ a{
     background-color: rgb(15, 15, 15);
     border-radius: 50%;
     position:relative;
-    left: 70em;
+    left: 65em;
     top: 0em;
     z-index: -1;
 }
