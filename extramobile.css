@@ -1,0 +1,66 @@
+@media (width<500px){
+body{
+    background-color: rgb(57, 46, 120);
+}
+.main_container{
+    width: 30em;
+}
+
+/* Navigation Bar Starts */
+/* Logo starts  */
+#nav_div_1{
+    justify-content: flex-start;
+    flex: 1;
+}
+/* Logo ends  */
+
+
+
+/* Navigation menu(Not for mobile) starts */
+#nav_div_2{
+    display: none;
+}
+/* Navigation menu(Not for mobile) ends */
+
+
+
+/* Searchbar and profile button starts */
+
+/* Searchbar and profile button ends */
+
+
+/* Menu (for mobile) starts */
+#nav_div_4{
+    display: block;
+}
+
+#nav_div_4 img{
+    width: 50px;
+}
+/* Menu (for mobile) ends */
+
+/* Navigation Bar Ends */
+
+
+/* Content section 1 starts */
+#content_section_1{
+    height: 20em;
+    background-color: aqua;
+}
+.content_section_1_content_design{
+    /* width: 60em; */
+    margin-inline: 0em;
+    /* padding-inline: 5em; */
+    height: 20em;
+    background-color: yellow;
+}
+
+.main_content_left_container{
+    background-color: blueviolet;
+    width: 25%;
+    height: 100%;
+}
+/* Content section 1 starts */
+
+
+}
