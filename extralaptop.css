@@ -11,7 +11,7 @@ body {
 
 
 /* Navigation Bar Starts */
-#upper_nav{
+#upper_nav {
     display: flex;
     justify-content: space-around;
 }
@@ -19,7 +19,7 @@ body {
 
 
 /* Logo starts  */
-#nav_div_1{
+#nav_div_1 {
     /* background-color: antiquewhite; */
     display: flex;
     justify-content: center;
@@ -27,20 +27,21 @@ body {
     flex: 1;
 }
 
-#nav_div_1_in{
+#nav_div_1_in {
     background-color: rgba(108, 104, 104, 0.5);
-    font-size: large;
+    font-size: small;
     padding: 0.5em;
     padding-inline: 1em;
     color: wheat;
-    border: 2px solid rgb(255, 255, 255,0.4);
+    border: 2px solid rgb(255, 255, 255, 0.4);
     border-radius: 5px;
 }
+
 /* Logo ends */
 
 
 /* Navigation menu(Not for mobile) starts */
-#nav_div_2{
+#nav_div_2 {
     /* background-color: yellowgreen; */
     flex: 2;
     display: flex;
@@ -48,64 +49,165 @@ body {
     border-bottom: 2px solid white;
 }
 
-#nav_div_2_in{
+#nav_div_2_in {
     list-style: none;
     color: antiquewhite;
     display: flex;
     justify-content: center;
     margin-left: -2em;
 }
-#nav_div_2_in li{
+
+#nav_div_2_in li {
     font-size: large;
     padding-inline: 2em;
 }
+
 /* Navigation menu(Not for mobile) ends */
 
 
 
 /* Searchbar and profile button starts */
-#nav_div_3{
+#nav_div_3 {
     /* background-color: chartreuse; */
     flex: 1;
 }
 
-#nav_div_3_in{
+#nav_div_3_in {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-#nav_div_3 img{
+#nav_div_3 img {
     width: 50px;
     height: 50px;
 }
+
 /* Searchbar and profile button ends */
 
 
 
 /* Menu (for mobile) starts */
-#nav_div_4{
+#nav_div_4 {
     display: none;
 }
+
 /* Menu (for mobile) end  */
 /* Navigation Bar Ends */
 
+
+
+
+
 /* Content section 1 starts */
-#content_section_1{
-    height: 30em;
-    background-color: aqua;
-}
-.content_section_1_content_design{
-    /* width: 60em; */
-    margin-inline: 5em;
-    /* padding-inline: 5em; */
-    height: 20em;
-    background-color: yellow;
+.content_section {
+    height: 40em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: scroll;
 }
 
-.main_content_left_container{
-    background-color: blueviolet;
-    width: 25%;
-    height: 20em;
+.content_section_1_content_design {
+    width: 45%;
+    /* margin-inline: 5em; */
+    /* padding-inline: 5em; */
+    height: auto;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    border: 2px black solid;
+    box-shadow: 10px 10px 10px blue;
+
+}
+.content_section_1_content_design:nth-of-type(n+1) {
+    margin-top: 2em;
+}
+
+.main_content_left_container {
+    /* background-color: blueviolet; */
+    width: 20%;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.main_content_left_upper {
+    height: 80%;
+    /* background-color: chartreuse; */
+}
+
+.content_profile_image_design {
+    width: 140px;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    left: 1px;
+}
+
+.main_content_right_container {
+    width: 75%;
+    padding-left: 10px;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+
+.main_content_right_upper {
+    
+}
+
+.main_content_right_upper_1 h4 {
+    /* background-color: aqua; */
+    padding: 0em;
+    margin: 0em;
+    margin-top: 0.5em;
+    font-size: 20px;
+}
+
+.main_content_right_upper_1 p {
+    flex-shrink: 1;
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    /* background-color: antiquewhite; */
+}
+
+.main_content_right_lower{
+    display: flex;
+    justify-content: space-between;
+}
+.main_content_right_lower_div_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.main_content_right_lower_div_1 p{
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 2;
+    color: white;
+}
+.main_content_right_lower_div_2{
+    
+}
+.main_content_right_lower_div_3{
+    
+}
+.connect_connect_user_design{
+    width: 20px;
+    height: auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    padding: 4px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 /* Content section 1 starts */

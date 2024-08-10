@@ -3,7 +3,7 @@ body{
     background-color: rgb(57, 46, 120);
 }
 .main_container{
-    width: 30em;
+    width: 21em;
 }
 
 /* Navigation Bar Starts */
@@ -25,7 +25,14 @@ body{
 
 
 /* Searchbar and profile button starts */
+#nav_search_bar{
+    width: 8em;
+}
 
+#nav_div_3 img{
+    width: 30px;
+    height: 30px;
+}
 /* Searchbar and profile button ends */
 
 
@@ -35,7 +42,7 @@ body{
 }
 
 #nav_div_4 img{
-    width: 50px;
+    width: 30px;
 }
 /* Menu (for mobile) ends */
 
@@ -43,22 +50,91 @@ body{
 
 
 /* Content section 1 starts */
-#content_section_1{
-    height: 20em;
-    background-color: aqua;
+.content_section{
+    height: 38em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 .content_section_1_content_design{
-    /* width: 60em; */
+    width: 100%;
     margin-inline: 0em;
     /* padding-inline: 5em; */
-    height: 20em;
-    background-color: yellow;
+    height: auto;
+}
+
+.content_section_1_content_design:nth-of-type(1) {
+    margin-top: 0em;
+}
+.content_section_1_content_design:nth-of-type(n+2) {
+    margin-top: 2em;
 }
 
 .main_content_left_container{
-    background-color: blueviolet;
     width: 25%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.main_content_left_upper{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_profile_image_design{
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    left: 4px;
+}
+
+.main_content_right_container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+
+
+.main_content_right_upper {
+    
+}
+
+.main_content_right_upper_1 h4 {
+   
+}
+
+.main_content_right_upper_1 p {
+    font-size: 13px;
+}
+
+.main_content_right_lower{
+}
+
+.main_content_right_lower_div_1{
+    
+}
+
+.main_content_right_lower_div_1 p{
+    font-size: 15px;
+}
+
+.main_content_right_lower_div_2{
+    
+}
+
+.connect_connect_user_design{
+    width: 20px;
+    height: auto;
+    border-radius: 9px;
+    padding: 4px;
 }
 /* Content section 1 starts */
 
