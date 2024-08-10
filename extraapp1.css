@@ -175,6 +175,11 @@ body{
 
 
 @media (max-width: 840px){
+
+
+    body{
+        background-color: white;
+    }
     .main_container
     {
         width: 20em;
