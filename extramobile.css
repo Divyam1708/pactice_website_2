@@ -1,9 +1,9 @@
-@media (max-device-width:500px){
+@media all and (max-device-width:500px){
 body{
     background-color: rgb(57, 46, 120);
 }
 .main_container{
-    width: 30em;
+    width: 26em;
 }
 
 /* Navigation Bar Starts */
