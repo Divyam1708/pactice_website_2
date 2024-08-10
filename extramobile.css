@@ -1,4 +1,4 @@
-@media (width<1100px){
+@media (max-device-width:500px){
 body{
     background-color: rgb(57, 46, 120);
 }
