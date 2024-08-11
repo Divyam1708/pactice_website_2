@@ -1,0 +1,334 @@
+@media all and (max-device-width:500px){
+    body{
+        background-color: rgba(1, 28, 82, 0.6);
+    }
+    .main_container{
+        width: 23.4em;
+        margin: auto;
+    }
+    
+    
+    #upper_navigation_bar{
+        display: flex;
+        justify-content: space-between;
+        margin-inline: 2px;
+        opacity: 0.7;
+        border-radius: 15px;
+    
+    }
+    
+        
+    #nav_logo_outter_container{
+        
+    }
+    
+    #nav_logo_inner_container p{
+        padding-block: 0.2em;
+        font-size: 15px;
+    }
+    
+    
+    #nav_logo_menu_outter_conatiner{
+        display: none;
+    }
+        
+    #search_and_required{
+        
+    }
+    #nav_searchbar{
+        width: 8em;
+    }
+    
+    #nav_setting_image{
+        display: none;
+    
+    }
+
+
+    #hidden_menu_button{
+        display: block;
+        width: 22px;
+        padding-left: 5px;
+    }
+
+
+    /* content section */
+    #main_content{
+        width: 96%;
+        /* height: 40.5em; */
+        position: relative;
+        top: 0.4em;
+        left: -0.5em;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 1em;
+        column-gap: 1em;
+        /* overflow: scroll; */
+    }
+
+    
+    #weather_main_info {
+    
+    }
+    
+    #temperature {
+        font-size: 100px;
+    }
+    
+    #condition_high_low {
+        font-size: 30px;
+    }
+    
+    #air_quality_button {
+    }
+    
+    #aqi_info {
+        font-size: 20px;
+    }
+    
+    #aqi_image {
+        width: 20px;
+    }
+    
+    
+    
+
+
+
+
+
+    
+    #rest_info_and_news {
+        /* background-color: #fff; */
+        grid-column-start: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        display: grid;
+        /* padding-inline: 1em;
+        padding-block: 1em; */
+        grid-template-rows: 0.02fr auto auto;
+        row-gap: 1em;
+    }
+    
+    #hourly_weather_info {
+        background-color: aquamarine;
+        width: 99%;
+        height: 8em;
+        display: grid;
+        grid-auto-flow: column;
+        column-gap: 1px;
+        overflow: scroll;
+    }
+    
+    .hourly_info_div {
+        border: 1px solid black;
+        width: 4em;
+    }
+    
+    .hourly_weather_info_time{
+        font-size:15px
+    }
+
+    .hourly_weather_info_condition_image {
+        width: 22px;
+    }
+
+    .hourly_weather_info_temperture{
+        font-size: 15px;
+    }
+    
+
+
+
+
+
+
+    
+    #extra_weather_info {
+        /* width: 95%; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap:2em;
+        row-gap: 2em;
+        margin: auto;
+    }
+    
+    .extra_weather_info_in_div_design {
+        background-color: cadetblue;
+        width: 8em;
+        height: 6em;
+        border-radius: 10px;
+    }
+    
+    
+    .hourly_weather_info_heading_design {
+        display: flex;
+        align-items: center;
+        border-bottom: 0.1px solid black;
+        padding-inline: 5px;
+    }
+    
+    .hourly_weather_info_in_div_heading_image {
+        height: 20px;
+        object-fit: contain;
+    }
+    
+    .hourly_weather_info_in_div_heading_design {
+        margin: 0px;
+        font-size: 15px;
+    }
+    
+    .extra_weather_info_description {
+        /* background-color: blue; */
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .extra_weather_info_desc_information {
+        font-size: 15px;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    
+    .extra_weather_info_desc_comment {
+        margin: 0px;
+        font-size: 10px;
+        margin-left: 5px;
+        vertical-align: top;
+    }
+    
+    
+    #top_stories {
+        background-color: rgb(43 43 43 / 39%);
+    
+    }
+    
+    
+    #top_stories_heading {
+        border-bottom: 2px solid black;
+    }
+    
+    #top_stories_heading p {
+        font-size: 20px;
+        margin: 0px;
+        padding: 5px 0px 0px 5px;
+    }
+    
+    #top_stories_info_content {
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        height: 15em;
+    }
+    
+    #top_stories_info_content::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .top_stories_content_design {
+        border-bottom: 2px solid black;
+        margin-inline: 1em;
+    }
+    
+    .top_stories_content_design p:nth-of-type(1) {
+    
+        font-size: 15px;
+
+    }
+    
+    .top_stories_content_design p:nth-of-type(2) {
+        font-size: 12px;
+    }
+    
+    
+    
+    
+    
+    
+    
+
+
+    #weather_forecast {
+        /* background-color: orange; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #weather_forecast::-webkit-scrollbar {
+        display: none;
+    }
+    
+    #weather_forecast_inner_div {
+        height: 95%;
+        width: 90%;
+        background-color: rgba(5, 205, 255, 0.825);
+        box-shadow: 2px 2px 10px black;
+        border-radius: 10px;
+        padding-inline: 1em;
+        overflow: scroll;
+    }
+    
+    #weather_forecast_inner_div::-webkit-scrollbar {
+        display: none;
+    }
+    
+    #weather_forecast_heading {
+    }
+    
+    #weather_forecast_heading p {
+        margin: 0px;
+    }
+    
+    
+    #weather_forecast_info_content {
+        overflow: scroll;
+        height: 12em;
+    }
+    
+    #weather_forecast_info_content::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .weather_forecast_info {
+        width: 100%;
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: 0.4fr 1.4fr 3fr;
+        align-items: center;
+    }
+    
+    .weather_forecast_info_image {
+        width: 30px;
+        vertical-align: middle;
+    
+    }
+    
+    .weather_forecast_condition {
+        margin-left: 10px;
+        font-size: 15px;
+        vertical-align: middle;
+    }
+    
+    .weather_forecast_high_low {
+        margin: 0px;
+        font-size: 15px;
+        text-align: end;
+    }
+
+
+    #weather_main_info{
+        order: 0;
+    }
+    #rest_info_and_news{
+        order:2;
+        /* width: 20%; */
+    }
+
+    #weather_forecast{
+        order: 1;
+    }
+}

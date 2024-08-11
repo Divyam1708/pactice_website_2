@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weatherlaptop.css">
+    <link rel="stylesheet" href="weathermobile.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="main_container" id="upper_navigation_bar">
+        <div id="nav_logo_outter_container">
+            <div id="nav_logo_inner_container">
+                <p>Weather co.</p>
+            </div>
+        </div>
+        <div id="nav_logo_menu_outter_conatiner">
+            <ul id="upper_nav_menu_ul">
+                <li>Home</li>
+                <li>Updates</li>
+                <li>Sun</li>
+                <li>About</li>
+            </ul>
+        </div>
+        <div id="search_and_required">
+            <input type="search" name="" id="nav_searchbar" placeholder="Search City..">
+            <img id="nav_setting_image" src="resources/settings_1.png" alt="">
+            <img id="hidden_menu_button" src="resources/menu-bar_1.png" alt="">
+        </div>
+    </nav>
+
+
+    <section class="main_container" id="main_content">
+
+
+        <section id="weather_main_info">
+            <p id="temperature">29<sup>˚C</sup></p>
+            <p id="condition_high_low">Rainy: <span>31˚</span>/<span>24˚</span></p>
+            <button id="air_quality_button"><img id="aqi_image" src="resources/aqi.png" alt="">
+                <p id="aqi_info">AQI<span> 41</span></p>
+            </button>
+        </section>
+
+
+
+
+
+
+        <section id="rest_info_and_news">
+            <section id="hourly_weather_info">
+                <!--  -->
+                <div class="hourly_info_div">
+                    <p class="hourly_weather_info_time">Now</p>
+                    <img class="hourly_weather_info_condition_image" src="resources/cloudy.png" alt="">
+                    <p class="hourly_weather_info_temperture"> 29˚C</p>
+                </div>
+                <!--  -->
+
+                <!--  -->
+                <div class="hourly_info_div">
+                    <p class="hourly_weather_info_time">8 PM</p>
+                    <img class="hourly_weather_info_condition_image" src="resources/cloudy.png" alt="">
+                    <p class="hourly_weather_info_temperture"> 28˚C</p>
+                </div>
+                <!--  -->
+
+                <!--  -->
+                <div class="hourly_info_div">
+                    <p class="hourly_weather_info_time">9 PM</p>
+                    <img class="hourly_weather_info_condition_image" src="resources/cloudy.png" alt="">
+                    <p class="hourly_weather_info_temperture"> 28˚C</p>
+                </div>
+                <!--  -->
+
+                <!--  -->
+                <div class="hourly_info_div">
+                    <p class="hourly_weather_info_time">10 PM</p>
+                    <img class="hourly_weather_info_condition_image" src="resources/cloudy.png" alt="">
+                    <p class="hourly_weather_info_temperture"> 27˚C</p>
+                </div>
+                <!--  -->
+
+                <!--  -->
+                <div class="hourly_info_div">
+                    <p class="hourly_weather_info_time">11 PM</p>
+                    <img class="hourly_weather_info_condition_image" src="resources/cloudy.png" alt="">
+                    <p class="hourly_weather_info_temperture"> 27˚C</p>
+                </div>
+                <!--  -->
+
+                <!--  -->
+                <div class="hourly_info_div">
+                    <p class="hourly_weather_info_time">12 AM</p>
+                    <img class="hourly_weather_info_condition_image" src="resources/cloudy.png" alt="">
+                    <p class="hourly_weather_info_temperture"> 26˚C</p>
+                </div>
+                <!--  -->
+
+                <!--  -->
+                <div class="hourly_info_div">
+                    <p class="hourly_weather_info_time">1 AM</p>
+                    <img class="hourly_weather_info_condition_image" src="resources/cloudy.png" alt="">
+                    <p class="hourly_weather_info_temperture"> 26˚C</p>
+                </div>
+                <!--  -->
+
+                <!--  -->
+                <div class="hourly_info_div">
+                    <p class="hourly_weather_info_time">2 AM</p>
+                    <img class="hourly_weather_info_condition_image" src="resources/cloudy.png" alt="">
+                    <p class="hourly_weather_info_temperture"> 26˚C</p>
+                </div>
+                <!--  -->
+
+                <!--  -->
+                <div class="hourly_info_div">
+                    <p class="hourly_weather_info_time">3 AM</p>
+                    <img class="hourly_weather_info_condition_image" src="resources/cloudy.png" alt="">
+                    <p class="hourly_weather_info_temperture"> 26˚C</p>
+                </div>
+                <!--  -->
+
+                <!--  -->
+                <div class="hourly_info_div">
+                    <p class="hourly_weather_info_time">4 AM</p>
+                    <img class="hourly_weather_info_condition_image" src="resources/cloudy.png" alt="">
+                    <p class="hourly_weather_info_temperture"> 25˚C</p>
+                </div>
+                <!--  -->
+
+                <!--  -->
+                <div class="hourly_info_div">
+                    <p class="hourly_weather_info_time">5 AM</p>
+                    <img class="hourly_weather_info_condition_image" src="resources/cloudy.png" alt="">
+                    <p class="hourly_weather_info_temperture"> 25˚C</p>
+                </div>
+                <!--  -->
+
+            </section>
+
+
+
+            <section id="extra_weather_info">
+                <div class="extra_weather_info_in_div_design" id="hourly_weather_info_humidity">
+                    <div class="hourly_weather_info_heading_design" id="hourly_weather_info_humidity_heading">
+                        <img class="hourly_weather_info_in_div_heading_image" src="resources/humidity.png" alt="">
+                        <p class="hourly_weather_info_in_div_heading_design">Humidity</p>
+                    </div>
+
+
+                    <div class="extra_weather_info_description">
+                        <p class="extra_weather_info_desc_information">
+                            68%
+                        </p>
+                        <p class="extra_weather_info_desc_comment">
+                            Humidity is making it feel hotter.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="extra_weather_info_in_div_design" id="hourly_weather_info_visibiity">
+                    <div class="hourly_weather_info_heading_design" id="hourly_weather_info_visibiity_heading">
+                        <img class="hourly_weather_info_in_div_heading_image" src="resources/visibility.png" alt="">
+                        <p class="hourly_weather_info_in_div_heading_design">Visbility</p>
+                    </div>
+
+                    <div class="extra_weather_info_description">
+                        <p class="extra_weather_info_desc_information">
+                            12km
+                        </p>
+                        <p class="extra_weather_info_desc_comment">
+                            Clear View.
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="extra_weather_info_in_div_design" id="hourly_weather_info_precipitation">
+                    <div class="hourly_weather_info_heading_design" id="hourly_weather_info_precipitation_heading">
+                        <img class="hourly_weather_info_in_div_heading_image" src="resources/precipitation.png" alt="">
+                        <p class="hourly_weather_info_in_div_heading_design">Precipitation</p>
+                    </div>
+
+                    <div class="extra_weather_info_description">
+                        <p class="extra_weather_info_desc_information">
+                            20mm
+                        </p>
+                        <p class="extra_weather_info_desc_comment">
+                            10mm expected in next 7 hours.
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="extra_weather_info_in_div_design" id="hourly_weather_info_wind">
+                    <div class="hourly_weather_info_heading_design" id="hourly_weather_info_wind_heading">
+                        <img class="hourly_weather_info_in_div_heading_image" src="resources/wind.png" alt="">
+                        <p class="hourly_weather_info_in_div_heading_design">Wind</p>
+                    </div>
+
+
+                    <div class="extra_weather_info_description">
+                        <p class="extra_weather_info_desc_information">
+                            35<sup>KPH</sup>
+                        </p>
+                        <p class="extra_weather_info_desc_comment">
+                            More windy to be expected.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="top_stories">
+                <div id="top_stories_heading">
+                    <p>Top Stories</p>
+                </div>
+                <div id="top_stories_info_content">
+
+                    <!--  -->
+                    <div class="top_stories_content_design">
+                        <p>Hurricane</p>
+                        <p>Dozen of people are in need and are in deprivation of imediate health anmd military support
+                            from from the goverment. After being hit by the modst devastating hurricanme in the last 4
+                            years. Problems are still written around for the submenrgence of power supply as well as the
+                            reason behind corespondence of minimal positions an dpoverty as well.</p>
+                    </div>
+                    <!--  -->
+
+                    
+
+                    <!--  -->
+                    <div class="top_stories_content_design">
+                        <p>Hurricane</p>
+                        <p>Dozen of people are in need and are in deprivation of imediate health anmd military support
+                            from from the goverment. After being hit by the modst devastating hurricanme in the last 4
+                            years. Problems are still written around for the submenrgence of power supply as well as the
+                            reason behind corespondence of minimal positions an dpoverty as well.</p>
+                    </div>
+                    <!--  -->
+
+
+                    <!--  -->
+                    <div class="top_stories_content_design">
+                        <p>Hurricane</p>
+                        <p>Dozen of people are in need and are in deprivation of imediate health anmd military support
+                            from from the goverment. After being hit by the modst devastating hurricanme in the last 4
+                            years. Problems are still written around for the submenrgence of power supply as well as the
+                            reason behind corespondence of minimal positions an dpoverty as well.</p>
+                    </div>
+                    <!--  -->
+
+
+                    <!--  -->
+                    <div class="top_stories_content_design">
+                        <p>Hurricane</p>
+                        <p>Dozen of people are in need and are in deprivation of imediate health anmd military support
+                            from from the goverment. After being hit by the modst devastating hurricanme in the last 4
+                            years. Problems are still written around for the submenrgence of power supply as well as the
+                            reason behind corespondence of minimal positions an dpoverty as well.</p>
+                    </div>
+                    <!--  -->
+
+
+                    <!--  -->
+                    <div class="top_stories_content_design">
+                        <p>Hurricane</p>
+                        <p>Dozen of people are in need and are in deprivation of imediate health anmd military support
+                            from from the goverment. After being hit by the modst devastating hurricanme in the last 4
+                            years. Problems are still written around for the submenrgence of power supply as well as the
+                            reason behind corespondence of minimal positions an dpoverty as well.</p>
+                    </div>
+                    <!--  -->
+
+
+                    <!--  -->
+                    <div class="top_stories_content_design">
+                        <p>Hurricane</p>
+                        <p>Dozen of people are in need and are in deprivation of imediate health anmd military support
+                            from from the goverment. After being hit by the modst devastating hurricanme in the last 4
+                            years. Problems are still written around for the submenrgence of power supply as well as the
+                            reason behind corespondence of minimal positions an dpoverty as well.</p>
+                    </div>
+                    <!--  -->
+
+
+                    <!--  -->
+                    <div class="top_stories_content_design">
+                        <p>Hurricane</p>
+                        <p>Dozen of people are in need and are in deprivation of imediate health anmd military support
+                            from from the goverment. After being hit by the modst devastating hurricanme in the last 4
+                            years. Problems are still written around for the submenrgence of power supply as well as the
+                            reason behind corespondence of minimal positions an dpoverty as well.</p>
+                    </div>
+                    <!--  -->
+
+
+                    <!--  -->
+                    <div class="top_stories_content_design">
+                        <p>Hurricane</p>
+                        <p>Dozen of people are in need and are in deprivation of imediate health anmd military support
+                            from from the goverment. After being hit by the modst devastating hurricanme in the last 4
+                            years. Problems are still written around for the submenrgence of power supply as well as the
+                            reason behind corespondence of minimal positions an dpoverty as well.</p>
+                    </div>
+                    <!--  -->
+
+
+                    <!--  -->
+                    <div class="top_stories_content_design">
+                        <p>Hurricane</p>
+                        <p>Dozen of people are in need and are in deprivation of imediate health anmd military support
+                            from from the goverment. After being hit by the modst devastating hurricanme in the last 4
+                            years. Problems are still written around for the submenrgence of power supply as well as the
+                            reason behind corespondence of minimal positions an dpoverty as well.</p>
+                    </div>
+                    <!--  -->
+
+
+                    <!--  -->
+                    <div class="top_stories_content_design">
+                        <p>Hurricane</p>
+                        <p>Dozen of people are in need and are in deprivation of imediate health anmd military support
+                            from from the goverment. After being hit by the modst devastating hurricanme in the last 4
+                            years. Problems are still written around for the submenrgence of power supply as well as the
+                            reason behind corespondence of minimal positions an dpoverty as well.</p>
+                    </div>
+                    <!--  -->
+
+
+                </div>
+            </section>
+        </section>
+
+
+
+
+
+
+
+
+        <section id="weather_forecast">
+            <div id="weather_forecast_inner_div">
+                <div id="weather_forecast_heading">
+                    <p>10-days Weather Forecast</p>
+                    <details>
+                        <summary>More details</summary>
+                    </details>
+                </div>
+                <div id="weather_forecast_info_content">
+                    <!-- Info-1 starts-->
+                    <div class="weather_forecast_info">
+                        <img class="weather_forecast_info_image" src="resources/rainy.png" alt="">
+                        <p class="weather_forecast_condition"><strong>Today</strong> Rainy</p>
+                        <p class="weather_forecast_high_low"><span>30˚</span>/<span>26˚</span></p>
+                    </div>
+                    <!-- Info-1 ends-->
+
+
+                    <!-- Info-1 starts-->
+                    <div class="weather_forecast_info">
+                        <img class="weather_forecast_info_image" src="resources/cloudy.png" alt="">
+                        <p class="weather_forecast_condition"><strong>Mon</strong> Cloudy</p>
+                        <p class="weather_forecast_high_low"><span>30˚</span>/<span>26˚</span></p>
+                    </div>
+                    <!-- Info-1 ends-->
+
+
+                    <!-- Info-1 starts-->
+                    <div class="weather_forecast_info">
+                        <img class="weather_forecast_info_image" src="resources/sunny.png" alt="">
+                        <p class="weather_forecast_condition"><strong>Tue</strong> Sunny</p>
+                        <p class="weather_forecast_high_low"><span>30˚</span>/<span>26˚</span></p>
+                    </div>
+                    <!-- Info-1 ends-->
+
+
+                    <!-- Info-1 starts-->
+                    <div class="weather_forecast_info">
+                        <img class="weather_forecast_info_image" src="resources/windy.png" alt="">
+                        <p class="weather_forecast_condition"><strong>Wed</strong> windy</p>
+                        <p class="weather_forecast_high_low"><span>30˚</span>/<span>26˚</span></p>
+                    </div>
+                    <!-- Info-1 ends-->
+
+
+                    <!-- Info-1 starts-->
+                    <div class="weather_forecast_info">
+                        <img class="weather_forecast_info_image" src="resources/sunny.png" alt="">
+                        <p class="weather_forecast_condition"><strong>Thu</strong> Sunny</p>
+                        <p class="weather_forecast_high_low"><span>30˚</span>/<span>26˚</span></p>
+                    </div>
+                    <!-- Info-1 ends-->
+
+
+                    <!-- Info-1 starts-->
+                    <div class="weather_forecast_info">
+                        <img class="weather_forecast_info_image" src="resources/cloudy.png" alt="">
+                        <p class="weather_forecast_condition"><strong>Fri</strong> Cloudy</p>
+                        <p class="weather_forecast_high_low"><span>30˚</span>/<span>26˚</span></p>
+                    </div>
+                    <!-- Info-1 ends-->
+
+
+                    <!-- Info-1 starts-->
+                    <div class="weather_forecast_info">
+                        <img class="weather_forecast_info_image" src="resources/thunderstorm.png" alt="">
+                        <p class="weather_forecast_condition"><strong>Sat</strong> Thunder storm</p>
+                        <p class="weather_forecast_high_low"><span>30˚</span>/<span>26˚</span></p>
+                    </div>
+                    <!-- Info-1 ends-->
+
+
+                    <!-- Info-1 starts-->
+                    <div class="weather_forecast_info">
+                        <img class="weather_forecast_info_image" src="resources/rainy.png" alt="">
+                        <p class="weather_forecast_condition"><strong>Sun</strong> Rainy</p>
+                        <p class="weather_forecast_high_low"><span>30˚</span>/<span>26˚</span></p>
+                    </div>
+                    <!-- Info-1 ends-->
+
+
+                    <!-- Info-1 starts-->
+                    <div class="weather_forecast_info">
+                        <img class="weather_forecast_info_image" src="resources/rainy.png" alt="">
+                        <p class="weather_forecast_condition"><strong>Mon</strong> Rainy</p>
+                        <p class="weather_forecast_high_low"><span>30˚</span>/<span>26˚</span></p>
+                    </div>
+                    <!-- Info-1 ends-->
+
+
+                    <!-- Info-1 starts-->
+                    <div class="weather_forecast_info">
+                        <img class="weather_forecast_info_image" src="resources/cloudy.png" alt="">
+                        <p class="weather_forecast_condition"><strong>Tue</strong> Cloudy</p>
+                        <p class="weather_forecast_high_low"><span>30˚</span>/<span>26˚</span></p>
+                    </div>
+                    <!-- Info-1 ends-->
+
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+</body>
+
+</html>
