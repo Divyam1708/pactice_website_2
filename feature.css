@@ -79,7 +79,7 @@
     transition-timing-function: ease-in-out;
 }
 
-#check:before {
+#check::before {
     content: "";
     width: 1700px;
     height: 58px;
@@ -100,7 +100,7 @@
     left: 400px;
     transform:
         /* rotateX(150deg)  */
-        perspective(10px) translateZ(9px);
+        perspective(100px) translateZ(1px);
 }
 
 #rotateable:hover {
@@ -212,12 +212,12 @@
 @keyframes comeout {
     0% {
         transform:
-            perspective(50px) translateZ(10px);
+            perspective(50px) translateZ(1px);
     }
 
     100% {
         transform:
-            perspective(50px) translateZ(5px)
+            perspective(50px) translateZ(1px)
             /* rotateZ(90deg) */
         ;
     }
@@ -705,30 +705,65 @@ animation-fill-mode: forwards;
     background-color: rgb(183, 255, 0);
     position: relative;
     top: 175em;
-    left:0em;
+    left:10em;
     width: 25em;
-    height: 10em;
+    height: 4em;
+    border-radius: 20px;
 }
 
 
 #floating_line h1::before{
     content: "";
     position: absolute;
-    top: 1.5em;
-    height: 5px;
-    width: 90px;
-    background-color: red;
+    top: -10px;
+    left: -120px;
+    height: 82px;
+    width: 100px;
+    border-radius: 20px;
+    background: linear-gradient(90deg,white 1%,rgb(255, 255, 255,1) 2%,rgb(0, 128, 0,0),rgb(255, 255, 255,1) 98%,rgb(252, 252, 252) 99%);
+    /* z-index: -2; */
+    display: block;
+    animation-name: translation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
 }
 
 #floating_line_container:hover  #floating_line h1::before {
-    transform: 
-    /* translateX(50px) */
+    /* transform: 
+    translateX(200px)
     scaleX(2)
     ;
-    transition-duration: 1s;
-    transform-origin: left 50%;
+    display: block;
+    transition-duration: 4s;
+    transform-origin: left 50%; */
+
+
 }
 
+@keyframes translation {
+    1%{
+        /* display: block; */
+    }
+    50%{
+        /* display: block; */
+        transform: translateX(275px);
+    }
+    51%{
+        /* visibility: hidden; */
+    }
+    99%{
+        /* display: none; */
+        /* visibility: hidden; */
+        transform: translateX(550px);
+    }
+    100%{
+        display: none;
+        visibility: hidden;
+        transform: translateX(551px);
+    }
+}
 
 
 
