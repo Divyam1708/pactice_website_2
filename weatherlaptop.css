@@ -2,7 +2,7 @@ body {
     background-color: rgba(1, 28, 82, 0.6);
 }
 
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
     display: none;
 }
 
@@ -11,7 +11,9 @@ body::-webkit-scrollbar {
     margin: auto;
 }
 
-
+a{
+    text-decoration: none;
+}
 #upper_navigation_bar {
     background-color: transparent;
     display: flex;
