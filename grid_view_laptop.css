@@ -1,0 +1,137 @@
+body{
+    background-color: gray;
+    /* background-color: red; */
+    box-sizing: border-box;
+}
+
+
+
+button
+{
+    position: absolute;
+    top: 5em;
+    left:2em;
+    z-index: 1;
+}
+
+
+
+.main_container {
+    width: 80vw;
+    margin: auto;
+    padding-inline: 1.25em;
+}
+
+*::-webkit-scrollbar{
+    display: none; 
+}
+#first_section {
+    height: auto;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 2em;
+    column-gap: unset;
+    /* grid-auto-flow: row; */
+    overflow: scroll;
+    color: aliceblue;
+}
+
+.first_section_inner_div {
+    background-color: rgb(63, 80, 80);
+    border: 5px solid orange;
+}
+
+#first_section .first_section_inner_div:nth-of-type(1){
+    background-color: rgb(33, 53, 53);
+    border: 5px solid orange;
+    /* max-width: 2040%;
+    min-width: 100%; */
+}
+
+#first_section_upper_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+
+@media 
+all and 
+(max-width:400px) 
+and 
+(max-device-width:400px) 
+{
+
+
+    #first_section_upper_div{
+        display: grid;
+        grid-template-columns:1fr;
+        row-gap: 0.5em;
+    }
+
+    body{
+        background-color: thistle;
+    }
+    .main_container {
+        width: 80%;
+        margin: auto;
+        padding-inline: 1.25em;
+    }
+    #first_section {
+        height: auto;
+        border: 5px solid black;
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1fr; */
+        row-gap: 0.5em;
+        column-gap: unset;
+        /* grid-auto-flow: row; */
+        /* overflow: scroll; */
+    }
+}
+
+
+@media 
+all and 
+(min-width:400px) 
+and 
+(min-device-width:400px) 
+and
+(max-width:800px) 
+and 
+(max-device-width:800px) 
+{
+
+
+    #first_section_upper_div{
+        display: grid;
+        grid-template-columns:1fr;
+        row-gap: 0.5em;
+    }
+
+    body{
+        background-color: thistle;
+    }
+    .main_container {
+        width: 80%;
+        margin: auto;
+        padding-inline: 1.25em;
+    }
+    #first_section {
+        height: auto;
+        border: 5px solid black;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 1fr; */
+        row-gap: 0.5em;
+        column-gap: unset;
+        /* grid-auto-flow: row; */
+        /* overflow: scroll; */
+    }
+}
+
+
+

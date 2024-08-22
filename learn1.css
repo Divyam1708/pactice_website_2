@@ -3,6 +3,13 @@ body{
     background-color: rgb(63, 57, 57);
 }
 
+#next_page{
+    position: absolute;
+    top: 20em;
+    left: 2em;
+
+}
+
 
 legend{
     color: wheat;
@@ -13,6 +20,9 @@ legend{
     margin: auto;
     display: flex;
     flex-direction: column;
+    /* direction: rtl; */
+    /* writing-mode: horizontal-tb;
+    writing-mode:vertical-rl; */
 }
 #checkbox_1_label{
     position: relative;
@@ -656,7 +666,7 @@ legend{
 #mac_card{
     width: 30em;
     height: 45em;
-    background-color: rgb(139, 228, 199,0.42);
+    background-color: rgb(139, 228, 199,0.21);
     border: 4px black solid;
     border-radius: 20px;
     backdrop-filter: blur(1000px);
@@ -665,6 +675,7 @@ legend{
     left: 0em;
     top: 2em;
     opacity: 0.6;
+
 
 }
 
@@ -706,7 +717,7 @@ background-color: green;
 #mac_card_content{
     width: 100%;
     height: 43em;
-    border: 1px solid white ;
+    /* border: 1px solid white ; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -809,8 +820,131 @@ animation-fill-mode: forwards;
 
 
 
+#card_grow_main_coantiner{
+    width: 60em;
+    margin: auto;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    /* gap: 10px; */
+    /* border: 5px olive solid; */
+
+}
 
 
+.card_grow_card_design{
+    width: 10em;
+    height: 24em;
+    display: flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    transition: all 0.4s;
+}
+.card_grow_card_design:nth-of-type(n):hover{
+    /* flex-grow: 5; */
+    /* scale: 1.2; */
+    transition: all 0.4s ease-in-out;
+}
+
+.card_grow_card_design:nth-of-type(n):hover 
+.card_grow_card_image_design
+{
+    width: 130%;
+    /* transform: scaleX(2); */
+    transition: all 1s;
+    border-radius: 5%;
+    /* object-fit: contain; */
+    
+}
+
+.card_grow_card_image_design{
+    
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+    /* transition: all 0.01s; */
+}
+
+
+
+
+
+
+
+
+#shapes_main_container_outter{
+    width: 88em;
+    overflow-x: scroll;
+}
+
+#shapes_main_container_outter::-webkit-scrollbar{
+    display: none;
+}
+#shapes_main_container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    gap: 1em;
+}
+
+#triangle{
+    width: 0em;
+    height: 0em;
+    border: 8em solid transparent;
+    border-bottom: 8em solid black;
+}
+
+
+
+#quarter_circle{
+    width: 0em;
+    height: 0em;
+    border: 8em solid transparent;
+    border-bottom: 8em solid black;
+    border-radius: 50%;
+}
+
+
+#arc{
+    width: 15em;
+    height: 15em;
+    border: 0.5em solid transparent;
+    border-bottom: 0.5em solid black;
+    border-radius: 50%;
+}
+
+#circle{
+    width: 15em;
+    height: 15em;
+    border: 0.5em solid black;
+    border-bottom: 0.5em solid black;
+    border-radius: 50%;
+}
+
+#square{
+    width: 15em;
+    height: 15em;
+    border: 0.5em solid black;
+    border-bottom: 0.5em solid black;
+}
+
+
+#rectangle{
+    width: 25em;
+    height: 15em;
+    border: 0.5em solid black;
+    border-bottom: 0.5em solid black;
+}
+
+
+#parallelogram{
+    width: 25em;
+    height: 15em;
+    border: 0.5em solid black;
+    border-bottom: 0.5em solid black;
+    transform:skewX(30deg) skewY(10deg);
+}
 
 
 
